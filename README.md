@@ -9,13 +9,12 @@ Run:
 ```
 ~% npm install
 ~% npm start
-
 ```
 
 ## Install the extension on Chrome/Brave
 
 -   Enter `chrome://extensions/` in Chrome/Brave URL
 -   Activate developer mode
--   Load unpacked then choose the repo
+-   `Load unpacked` then choose the repo
 -   Ready!
 -   You can pin the extension for ease of use
