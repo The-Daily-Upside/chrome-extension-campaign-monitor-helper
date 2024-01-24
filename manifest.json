@@ -7,6 +7,11 @@
         "default_popup": "index.html",
         "default_icon": "sunstrisk.png"
     },
+    "icons": {
+        "16": "sunstrisk.png",
+        "48": "sunstrisk.png",
+        "128": "sunstrisk.png"
+    },
     "content_scripts": [
         {
             "matches": ["https://*.createsend.com/campaigns/*"],
