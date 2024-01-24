@@ -2,35 +2,6 @@
 
 The **Chrome Extension Campaign Monitor Helper** is designed to streamline the process of importing HTML emails into Campaign Monitor by automatically disabling the "Move Inline CSS" option. This extension is especially useful for users who prefer to manage their CSS separately when working with Campaign Monitor.
 
-## Local Setup
-
-To set up the extension locally for development purposes, follow these steps:
-
-1. **Clone the repository:**
-
-    ```bash
-    ~% git clone <repository_url>
-    ```
-
-2. **Navigate to the extension directory:**
-
-    ```bash
-    ~% cd chrome-extension-campaign-monitor-helper
-    ```
-
-3. **Install the required dependencies:**
-
-    ```bash
-    ~% npm install
-    ```
-
-4. **Run the development script:**
-    ```bash
-    ~% npm start
-    ```
-
-This will run Prettier to format relevant files and ESLint for linting, ensuring the codebase adheres to coding standards.
-
 ## Installing the Extension on Chrome/Brave
 
 To use the extension on your Chrome or Brave browser, follow these simple steps:
@@ -48,6 +19,35 @@ To use the extension on your Chrome or Brave browser, follow these simple steps:
 ## Extension Usage
 
 Once the extension is installed, it will automatically disable the "Inline CSS" option when importing HTML email content into Campaign Monitor. The extension is designed to enhance the user experience by simplifying the process and ensuring that CSS management aligns with user preferences.
+
+## Local Development Setup
+
+To set up the extension locally for development purposes, follow these steps:
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/The-Daily-Upside/chrome-extension-campaign-monitor-helper.git
+    ```
+
+2. **Navigate to the extension directory:**
+
+    ```bash
+    cd chrome-extension-campaign-monitor-helper
+    ```
+
+3. **Install the required dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+4. **Run the development script:**
+    ```bash
+    npm start
+    ```
+
+This will run Prettier to format relevant files and ESLint for linting, ensuring the codebase adheres to coding standards.
 
 ## Important Note
 
