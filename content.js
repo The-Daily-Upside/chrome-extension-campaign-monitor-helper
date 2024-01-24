@@ -1,5 +1,5 @@
 /**
- * This file is only loaded if the URL satisfies the matched pattern.
+ * This file is only loaded if the URL satisfies the matched pattern in manifest.json.
  */
 
 /**
@@ -43,6 +43,7 @@ checkCheckboxStatus();
 
 /**
  * Use MutationObserver to detect changes in the DOM.
+ * CM dynamically pulls in content when importing, using listeners won't work in most cases.
  */
 const observer = new MutationObserver(() => {
     // Check the checkbox status when the DOM changes

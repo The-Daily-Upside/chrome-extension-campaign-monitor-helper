@@ -1,13 +1,12 @@
 {
     "name": "Chrome Extension Campaign Monitor Helper",
-    "description": "A TDU extension that unchecks the Move CSS inline option when importing HTML into a campaign.",
+    "description": "A The Daily Upside extension that unchecks the Move CSS inline option when importing HTML into a campaign in Campaign Monitor.",
     "version": "1.0",
     "manifest_version": 3,
     "action": {
         "default_popup": "index.html",
         "default_icon": "sunstrisk.png"
     },
-    "permissions": ["webNavigation"],
     "content_scripts": [
         {
             "matches": ["https://*.createsend.com/campaigns/*"],
