@@ -1,6 +1,6 @@
 {
-    "name": "Chrome Extension Campaign Monitor Helper",
-    "description": "A The Daily Upside extension that unchecks the Move CSS inline option when importing HTML into a campaign in Campaign Monitor.",
+    "name": "Campaign Monitor HTML Import Helper by The Daily Upside",
+    "description": "Don't let the Campaign Monitor HTML importer break your nice code. Disable the 'Move to Inline CSS' checkbox with ease.",
     "version": "1.0",
     "manifest_version": 3,
     "action": {
@@ -17,5 +17,12 @@
             "matches": ["https://*.createsend.com/campaigns/*"],
             "js": ["content.js"]
         }
-    ]
+    ],
+    "permissions": [],
+    "host_permissions": ["https://*.createsend.com/campaigns/*"],
+    "homepage_url": "https://github.com/The-Daily-Upside/campaign-monitor-html-import-helper",
+    "developer": {
+        "name": "The Daily Upside",
+        "url": "https://www.thedailyupside.com"
+    }
 }
