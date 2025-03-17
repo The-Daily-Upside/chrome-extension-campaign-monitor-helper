@@ -20,9 +20,5 @@
     ],
     "permissions": [],
     "host_permissions": ["https://*.createsend.com/campaigns/*"],
-    "homepage_url": "https://github.com/The-Daily-Upside/campaign-monitor-html-import-helper",
-    "developer": {
-        "name": "The Daily Upside",
-        "url": "https://www.thedailyupside.com"
-    }
+    "homepage_url": "https://github.com/The-Daily-Upside/campaign-monitor-html-import-helper"
 }
